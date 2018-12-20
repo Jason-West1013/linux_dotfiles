@@ -1,0 +1,11 @@
+urxvt.termName: rxvt-256color
+
+!! Appearance
+!! urxvt.buffered: true
+urxvt.scrollBar: false
+urxvt.reverseVideo: true
+urxvt.font:  xft:inconsolata:size=12:antialias=true
+urxvt.letterspace: -1
+
+URxvt.depth: 24
+URxvt.background: rgba:1111/1111/1111/ffff
