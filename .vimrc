@@ -1,5 +1,3 @@
-
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'hhsnopek/vim-firewatch'
