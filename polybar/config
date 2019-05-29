@@ -33,8 +33,12 @@ bottom = false
 
 spacing = 1
 width = 100%
-height = 25
+height = 30
 fixed-center = true
+
+border-left-size = 15
+border-right-size = 15
+border-top-size = 15
 
 background = ${colors.background}
 border-color = 0
@@ -68,6 +72,13 @@ cursor-scroll = ns-resize
 
 [bar/secondaryBar]
 monitor = ${env:MONITOR:DVI-D-0}
+inherit = bar/mainBar
+modules-right = none
+modules-center = none
+tray-position = none
+
+[bar/thirdBar]
+monitor = ${env:MONITOR:DVI-I-0}
 inherit = bar/mainBar
 modules-right = none
 modules-center = none

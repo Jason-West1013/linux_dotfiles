@@ -11,7 +11,7 @@ urxvt.letterspace: -1
 urxvt.borderless: true
 
 ! seoul256 (dark) theme adapted for URxvt
-!!URxvt*background: #3a3a3a 
+! URxvt*background: #3a3a3a 
 urxvt.depth: 32
 urxvt.background: rgba:0000/0000/0200/c800
 URxvt*foreground: #d0d0d0 
@@ -36,4 +36,17 @@ URxvt*cursorColor2: #3a3a3a
 URxvt*colorBD: #e4e4e4
 
 urxvt*fading: 40		
+
+rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
+rofi.color-normal: argb:3c1d1f21, #c4cbd4, argb:3c1d1f21, #c4cbd4
+rofi.color-urgent: argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
+rofi.color-active: argb:2c1d1f21, #65acff, argb:e44b5160, #4491ed, #f9f9f9
+rofi.fullscreen: true
+rofi.lines: 5
+rofi.font: System 14
+rofi.bw: 0
+rofi.padding: 400
+rofi.eh: 1
+rofi.separator-style: none
+rofi.hide-scrollbar: true
 
